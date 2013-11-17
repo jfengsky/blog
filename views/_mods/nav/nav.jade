@@ -2,13 +2,26 @@
 
 mixin navshow(current)
   header.header
-    h2 枫之舞
     nav
+      h3 枫之舞
       ul
-        each val, index in ['Home', 'Js', 'Css']
-          if ( current == val )
-            li(class='#{val} cur')
-              a(href="#")= val
+        - if ( current == 'home' )
+            li(class='home cur')
+              a(href='index.html') 首页
           else
-            li(class='#{val}')
-              a(href="")= val
+            li(class='home')
+              a(href='index.html') 首页
+
+        - if ( current == 'js' )
+            li(class='js cur')
+              a(href='js/index.html') Js
+          else 
+            li(class='js')
+              a(href='js/index.html') Js
+
+        - if ( current == 'css' )
+            li(class='css cur')
+              a(href='css/index.html') Css
+          else
+            li(class='css')
+              a(href='css/index.html') Css

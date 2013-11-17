@@ -1,6 +1,6 @@
 //- home page
 
-- var navCur = 'Home'
+- var navCur = 'home'
 - var title = "枫之舞-代码里遨游"
 
 //- header
@@ -13,8 +13,15 @@ block content
   include _mods/nav/nav
   +navshow(navCur)
 
-  h1= title
-  p Welcome to index111 #{title}
-  section section
+  .main
+    .content
+      h2 标题1
+      .tag
+        ul
+          li javascript
+          li css
+          li 标签
+        em 2013-11-17
+      include js/2013/1117/test.md
 
 include _mods/_inc/_footer
