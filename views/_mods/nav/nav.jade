@@ -1,12 +1,14 @@
 //- main nav
 
 mixin navshow(current)
-  header
-    h1 枫之舞
-    nav.header
+  header.header
+    h2 枫之舞
+    nav
       ul
-        each val, index in ['home', 'js', 'css']
-          if (current == val)
-            li(class='#{val} cur')= index + ': ' + val
+        each val, index in ['Home', 'Js', 'Css']
+          if ( current == val )
+            li(class='#{val} cur')
+              a(href="#")= val
           else
-            li(class='#{val}')= index + ': ' + val
+            li(class='#{val}')
+              a(href="")= val

@@ -1,0 +1,40 @@
+// 
+//
+//
+
+@import 'global'
+
+$height: 40px
+.header
+  height: $height
+  width: 100%
+  background-color: $top_bg
+  padding: 0 25px
+  border-bottom: 1px solid $border_color
+  box-shadow: 1px 1px 4px #eee
+  position: fixed
+
+  h2
+    float: left
+    font-size: 1.4em
+    line-height: 1.8em
+
+  nav
+    float: left
+    margin: 12px 0 0 60px
+
+  li
+    float: left
+    line-height: 1.8em
+    padding: 0 10px
+
+    a
+      color: #444
+      &:hover
+        color: $blue
+        text-decoration: none
+
+    &.cur
+      border-bottom: 1px solid $blue
+      a
+        color: $blue

@@ -1,0 +1,44 @@
+/* line 8, nav.sass */
+.header {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0 25px;
+  border-bottom: 1px solid #e5e5e5;
+  box-shadow: 1px 1px 4px #eeeeee;
+  position: fixed;
+}
+/* line 17, nav.sass */
+.header h2 {
+  float: left;
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+/* line 22, nav.sass */
+.header nav {
+  float: left;
+  margin: 12px 0 0 60px;
+}
+/* line 26, nav.sass */
+.header li {
+  float: left;
+  line-height: 1.8em;
+  padding: 0 10px;
+}
+/* line 31, nav.sass */
+.header li a {
+  color: #444444;
+}
+/* line 33, nav.sass */
+.header li a:hover {
+  color: #0071c5;
+  text-decoration: none;
+}
+/* line 37, nav.sass */
+.header li.cur {
+  border-bottom: 1px solid #0071c5;
+}
+/* line 39, nav.sass */
+.header li.cur a {
+  color: #0071c5;
+}

@@ -1,0 +1,39 @@
+/* line 6, basic.sass */
+body {
+  color: #333333;
+  background-color: #f6f7f8;
+}
+
+/* line 9, basic.sass */
+a {
+  text-decoration: none;
+}
+/* line 11, basic.sass */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 14, basic.sass */
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* line 22, basic.sass */
+.clearfix {
+  display: inline-block;
+}
+
+/* line 25, basic.sass */
+html[xmlns] .clearfix {
+  display: block;
+}
+
+/* line 28, basic.sass */
+* html .clearfix {
+  height: 1%;
+}

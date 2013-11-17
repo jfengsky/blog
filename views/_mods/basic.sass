@@ -1,0 +1,29 @@
+//
+//
+//
+
+@import 'global'
+body
+  color: #333
+  background-color: #f6f7f8
+a
+  text-decoration: none
+  &:hover
+    text-decoration: underline
+
+.clearfix:after 
+  content: " "
+  display: block
+  clear: both
+  visibility: hidden
+  line-height: 0
+  height: 0
+ 
+.clearfix
+  display: inline-block
+ 
+html[xmlns] .clearfix
+  display: block
+ 
+* html .clearfix
+  height: 1%
