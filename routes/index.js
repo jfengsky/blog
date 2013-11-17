@@ -8,7 +8,7 @@ module.exports = function(app){
 
   readdirp({ 
     root: './views', 
-    directoryFilter: ['!*_mods'], 
+    directoryFilter: ['!*_mods', '!assets'], 
     fileFilter: [ '*.jade' ]
   }).on('data', function (entry) {
 
