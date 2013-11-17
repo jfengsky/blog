@@ -3,7 +3,6 @@
  * GET home page.
  */
 var readdirp = require('readdirp');
-
 module.exports = function(app){
 
   readdirp({ 
