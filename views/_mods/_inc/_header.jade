@@ -5,6 +5,10 @@ mixin head(titlename)
   html
     head
       title= titlename
-      link(rel='stylesheet', href='assets/css/style.css')
+      if dev
+        link(rel='stylesheet', href='assets/reset.min.css')
+      else
+        link(rel='stylesheet', href='_mods/reset.css')
+        link(rel='stylesheet', href='_mods/nav/nav.css')
     body
       block content

@@ -3,8 +3,10 @@
 mixin navshow(current)
   header
     h1 枫之舞
-    nav
+    nav.header
       ul
         each val, index in ['home', 'js', 'css']
           if (current == val)
+            li(class='#{val} cur')= index + ': ' + val
+          else
             li(class='#{val}')= index + ': ' + val

@@ -1,11 +1,11 @@
 # Require any additional compass plugins here.
 
 # Set this to the root of your project when deployed:
-http_path = "/"
-css_dir = "mods"
-sass_dir = "mods"
-images_dir = "images"
-javascripts_dir = "mods"
+http_path = "../"
+css_dir = "../_mods"
+sass_dir = "../_mods"
+images_dir = "../_mods/imgs"
+javascripts_dir = "../_mods"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed
