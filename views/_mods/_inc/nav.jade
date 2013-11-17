@@ -1,0 +1,10 @@
+//- main nav
+
+mixin navshow(current)
+  header
+    h1 枫之舞
+    nav
+      ul
+        each val, index in ['home', 'js', 'css']
+          if (current == val)
+            li(class='#{val}')= index + ': ' + val

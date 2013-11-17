@@ -1,0 +1,20 @@
+//- home page
+
+- var navCur = home
+- var title = "标题"
+
+//- header
+include _mods/_inc/_header
++head(title)
+
+block content
+  
+  //- main nav
+  include _mods/_inc/nav
+  +navshow('home')
+
+  h1= title
+  p Welcome to index111 #{title}
+  section section
+
+include _mods/_inc/_footer

@@ -1,0 +1,10 @@
+//- header
+
+mixin head(titlename)
+  doctype 5
+  html
+    head
+      title= titlename
+      link(rel='stylesheet', href='/css/style.css')
+    body
+      block content
