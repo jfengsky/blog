@@ -8,6 +8,18 @@
   "dependencies": {
     "express": "3.4.3",
     "jade": "*",
-    "markdown-js": "*"
+    "markdown-js": "*",
+    "grunt": "*",
+  "readdirp": "*",
+    "grunt-contrib-compass": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-cmd-transport": "~0.1.1",
+    "grunt-cmd-concat": "~0.2.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-watch": "*"
   }
 }
