@@ -3,6 +3,8 @@
  * GET home page.
  */
 var readdirp = require('readdirp');
+var markdown = require('markdown-js');
+
 module.exports = function(app){
 
   readdirp({ 
