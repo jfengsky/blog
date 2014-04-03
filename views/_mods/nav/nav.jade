@@ -3,25 +3,25 @@
 mixin navshow(current)
   header.header
     nav
-      h3 枫之舞
+      h3 title
       ul
         - if ( current == 'home' )
-            li(class='home cur')
-              a(href='index.html') 首页
-          else
+            li(class="home cur")
+              a(href="index.html") home
+        - else
             li(class='home')
-              a(href='index.html') 首页
+              a(href='index.html') home
 
         - if ( current == 'js' )
             li(class='js cur')
               a(href='js/index.html') Js
-          else 
+        - else
             li(class='js')
               a(href='js/index.html') Js
 
         - if ( current == 'css' )
             li(class='css cur')
               a(href='css/index.html') Css
-          else
+        - else
             li(class='css')
               a(href='css/index.html') Css
